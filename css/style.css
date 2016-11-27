@@ -1,0 +1,116 @@
+/*font-family: 'Itim', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+
+/*etiquetas*/
+body{
+
+background-image: url(../img/images.jpg);	
+background-repeat: repeat;
+background-size: cover; 
+text-align: left; 
+}	
+
+h1{
+font-family: 'Itim', cursive;	
+color:black;
+margin-left: 10px;
+font-size: 20px;
+text-align: left; 
+
+}
+
+h2{
+font-family: 'Itim', cursive;
+color: black;
+margin-left: 50px;
+font-size: 20px;
+text-align: left; 
+}
+h3{
+font-family: 'Itim', cursive;
+color: black; 
+font-size: 80px;
+text-align: center; 
+}
+
+header{
+	
+	width: 800px;
+	height: 250px;
+	background: rgba(255, 255, 255, 10,70);
+	
+}
+nav{
+	width: 700px;
+	height:10px;
+	border-radius: 10px;
+}
+
+ul{
+	margin: 20px;
+	padding-top: 10px;
+
+	
+
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black; 
+	margin: 100x;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+section{
+	width: 700px;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+aside{
+
+	width: 530px;
+	height: 45px;
+	float: left:200px;
+	margin-left: 200px;
+	margin-top: 200px;
+	border-radius: 100px;
+}
+
+footer{
+width: 2000px;
+height: 100px;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+
+
+
+ /*CLASES*/
+
+ .ancho_menu_home{width: 50px;}
+ .ancho_menu_paginas{width: 70px;}
+
+ .menu:link {padding: 7px;color:white; text-decoration:none;}
+ .menu:visited {padding: 7px;color: white; text-decoration:none;}
+ .menu:hover {padding: 7px;color: white; text-decoration:none; text-shadow: 0 0 5px white;}
+ .menu:active {padding: 7px;color: white; text-decoration:none;}
+
+ /*seudo clases*/
+
